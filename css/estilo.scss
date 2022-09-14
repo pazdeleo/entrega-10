@@ -1,0 +1,32 @@
+@import "./partials/variables";
+
+@import "./partials/reset";
+
+@import "./partials/mixin";
+@import "./partials/body";
+@import "./partials/heros";
+
+.titulos {
+  color: #c22557;
+  font-family: $fuentetitulos;
+}
+
+.cita {
+  color: $colordecitas;
+}
+
+.textocarrusel {
+  background-color: $colortextocarrusel;
+}
+
+.redes-container {
+  @include estiloderedescontainer;
+}
+
+.redes-container ul li {
+  @include redescontainerulli;
+}
+
+.redes-container ul li a {
+  @include redescontainerenlace;
+}

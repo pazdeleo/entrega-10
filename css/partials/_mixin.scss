@@ -1,0 +1,23 @@
+@mixin estiloderedescontainer {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin redescontainerulli {
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+@mixin redescontainerenlace {
+  display: block;
+  padding: 0 10px;
+  background-color: #c22557;
+  color: white;
+  line-height: 50px;
+  font-size: 18px;
+}
