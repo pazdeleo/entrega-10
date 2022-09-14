@@ -1,0 +1,242 @@
+<!--Contacto-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta nombre="descripción" content="dejanos tu mensaje" />
+    <meta
+      nombre="palabras clave"
+      content="NOVEDADES, ACTUALIDAD, TEMPLO DE PAZ, SALUD, BIENESTAR, NOTICIAS, CALIDAD DE VIDA, MEJORAR MI VIDA, ESTAR SANA, INFORMACION DE BIENESTAR"
+    />
+    <title>Contacto</title>
+    <link rel="icon" href="../images/icono.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-lg" style="background-color: #f79eb1">
+        <div class="container-fluid text-center fs-2">
+          <a class="navbar-brand" href="../index.html">Templo de Paz</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/actualidad.html"
+                  >Actualidad</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/entrevistas.html"
+                  >Entrevistas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </main>
+
+    <section class="container">
+      <div class="row mt-5 gap-4 gap-md-0">
+        <div class="col-md-6">
+          <h4>Información de Contacto</h4>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Teléfono
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">+34658054488</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Dirección
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Calle Falsa 15 - Piso 3 - 14A - Benetusser, Valencia -
+                  CP:46784
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Correo electrónico
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">info@templodepaz.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h4>Envianos un mensaje</h4>
+          <form>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Nombre</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Ingresá tu nombre"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >E-mail</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Ingresá tu e-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="button" class="btn btn-outline-dark">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mb-3">
+            <h3>Subcribite a nuestro newsletter</h3>
+            <label for="exampleFormControlInput1" class="form-label"
+              >E-mail</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Ingresá tu e-mail"
+            />
+          </div>
+          <button type="button" class="btn btn-outline-dark">Enviar</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="card text-center mt-5" style="background-color: #f79eb1">
+        <div class="card-body">
+          <h5 class="card-title text-white">
+            Seguinos en nuestras redes sociales
+          </h5>
+          <a href="https://www.facebook.com/profile.php?id=100063528844982">
+            <img
+              src="../images/facebook.jpg"
+              width="50"
+              height="50"
+              alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com/templo.depaz/">
+            <img
+              src="../images/instagram.jpg"
+              width="50"
+              height="50"
+              alt="Instagram"
+          /></a>
+          <a href="https://www.youtube.com/">
+            <img src="../images/yt.jpg" width="50" height="50" alt="YouTube"
+          /></a>
+
+          <h5 class="text-white">2001-2022 © CopyRight</h5>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
