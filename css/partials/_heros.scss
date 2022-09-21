@@ -9,6 +9,7 @@
 .hero2 {
   @extend .hero;
   background-image: url("/images/sonrienteotoño.jpg");
+  height: 50vh;
 
   h1 {
     background-color: white;
@@ -16,5 +17,9 @@
 }
 
 .hero3 {
-  @extend .hero;
+  background-image: url("/images/gradienterosado.jpg");
+  height: 20vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
