@@ -6,7 +6,11 @@
   border-radius: 10px;
 }
 
-.hero2 {
+.bannerinicio {
+  background-image: url("/images/sonrienteotoño.jpg");
+}
+
+/*.hero2 {
   @extend .hero;
   background-image: url("/images/sonrienteotoño.jpg");
   height: 100%;
@@ -14,7 +18,7 @@
   h1 {
     background-color: white;
   }
-}
+}*/
 
 .hero3 {
   background-image: url("/images/gradienterosado.jpg");
