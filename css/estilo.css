@@ -12,20 +12,12 @@ body {
 }
 
 .hero,
-.hero3,
-.hero2 {
+.hero3 {
   background-image: url("/images/gradienterosado.jpg");
   height: 20vh;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-}
-
-.hero2 {
-  background-image: url("/images/sonrienteotoño.jpg");
-}
-.hero2 h1 {
-  background-color: white;
 }
 
 .card:hover {
