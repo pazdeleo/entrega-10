@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("/images/gradienterosado.jpg");
+  background-image: url("./../images/gradienterosado.jpg");
   height: 20vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,18 +8,14 @@
 
 .hero2 {
   @extend .hero;
-  background-image: url("/images/sonrienteotoño.jpg");
-  height: 100%;
-
+  background-image: url("./../images/sonrienteotoño.jpg");
+  background-position-y: -150px;
+  height: 45vh;
   h1 {
     background-color: white;
   }
 }
 
 .hero3 {
-  background-image: url("/images/gradienterosado.jpg");
-  height: 20vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 10px;
+  @extend .hero;
 }

@@ -1,0 +1,25 @@
+/* medias queries */
+
+@media screen and (max-width: 768px) {
+  .textohero {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .textohero {
+    @include sizetextoshero;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .textohero {
+    @include sizetextoshero;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .textohero {
+    @include sizetextoshero;
+  }
+}

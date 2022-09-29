@@ -11,20 +11,44 @@ body {
   background-color: #ffe8ef;
 }
 
-.hero,
-.hero3 {
-  background-image: url("/images/gradienterosado.jpg");
+.hero, .hero3, .hero2 {
+  background-image: url("./../images/gradienterosado.jpg");
   height: 20vh;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
 }
 
-.card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
+.hero2 {
+  background-image: url("./../images/sonrienteotoño.jpg");
+  background-position-y: -150px;
+  height: 45vh;
+}
+.hero2 h1 {
+  background-color: white;
 }
 
+/* medias queries */
+@media screen and (max-width: 768px) {
+  .textohero {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .textohero {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .textohero {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 378px) {
+  .textohero {
+    font-size: 20px;
+  }
+}
 .titulos {
   color: #c22557;
   font-family: "Arima", cursive;
@@ -60,4 +84,4 @@ body {
   color: white;
   line-height: 50px;
   font-size: 18px;
-} /*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */
